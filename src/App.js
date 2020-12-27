@@ -27,7 +27,7 @@ function App() {
             <Route path="/login" exact component={Login} />
             <Route path="/register" exact component={Register} />
             
-            {userService.isAdmin() && (
+            {userService.isLoggedIn() && (
               <Route path="/products/new" component={NewProduct} />
             )}
               
