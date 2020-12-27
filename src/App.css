@@ -1,0 +1,97 @@
+.Jumbotron,
+h1,
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+.searchnav {
+  justify-content: center;
+  display: flex;
+  padding-left: 100px;
+  background-color: #157992;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.searchbar {
+  width: 1000px !important;
+  margin-right: 10px;
+}
+
+.topnav {
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.img {
+  width: 100%;
+  height: 50% !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid !important;
+}
+
+.card {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.main-footer {
+  color: white;
+  background-color: #116980;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center !important;
+}
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.col {
+  padding-right: 100px;
+  justify-content: center;
+}
+
+.form {
+  padding: 40px;
+}
+
+.tabs {
+  margin-left: 720px;
+}
+
+.topnav h2 {
+  margin-left: 30px;
+  color: #157992;
+  font-family: "Courier New";
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 10px;
+}
+
+.newpro {
+  float: right;
+  margin-bottom: 50px;
+}
+
+.editdel {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  justify-content: center !important;
+}
+
+.jumbotron {
+  background-image: url(https://res.cloudinary.com/dpoga1ue3/image/upload/v1609068389/abstract-background-1024x273_wtauoz.jpg);
+}
