@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:4000/";
+axios.defaults.baseURL = "https://drexel-api.herokuapp.com/";
 axios.defaults.headers.common["x-auth-token"] = localStorage.getItem("token");
 class GenericService {
 
