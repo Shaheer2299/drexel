@@ -28,7 +28,7 @@ import userService from "./../../services/UserService";
         <div>
             <CssBaseline />
             <h1>Products</h1>
-            {userService.isAdmin() && (
+            {userService.isLoggedIn() && (
                 <Button variant="success" className="newpro" onClick={handleNewProductClick}    >Add New Product</Button>
             )}
         {products.length === 0 ? (
