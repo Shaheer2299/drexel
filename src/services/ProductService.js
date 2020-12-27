@@ -4,7 +4,7 @@ class ProductsService extends GenericService {
   addProduct = (data) => this.post("products/add", data);
   deleteProduct = (_id) => this.delete("products/delete/"+_id);
   updateProduct = (_id, data) => this.put("products/api/" + _id, data);
-  getProducts = () => this.get("products");
+  getProducts = () => this.get("products/api");
   getSingleProduct = (id) => this.get("products/"+ id);
 }
 
